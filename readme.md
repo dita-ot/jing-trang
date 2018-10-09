@@ -1,3 +1,9 @@
+# Jing Build status [![Build Status](https://travis-ci.org/dita-ot/jing-trang.svg)](https://travis-ci.org/dita-ot/jing-trang)
+
+A RELAX NG validator in Java.
+
+## Building
+
 After checking out from the repository, here's how to build.
 
 1. Ensure you have the a suitable version of the JDK installed: either
@@ -39,6 +45,6 @@ After checking out from the repository, here's how to build.
    .\ant test
    ```
 
-### Build status
+## Licence
 
-[![Build Status](https://travis-ci.org/relaxng/jing-trang.svg)](https://travis-ci.org/relaxng/jing-trang)
+Jing is licensed for use under the [3-Clause BSD License](copying.txt).
