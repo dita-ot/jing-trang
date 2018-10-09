@@ -1,4 +1,4 @@
-# Jing Build status [![Build Status](https://travis-ci.org/dita-ot/jing-trang.svg)](https://travis-ci.org/dita-ot/jing-trang)
+# Jing [![Build Status](https://travis-ci.org/dita-ot/jing-trang.svg)](https://travis-ci.org/dita-ot/jing-trang)
 
 A RELAX NG validator in Java.
 
@@ -6,19 +6,17 @@ A RELAX NG validator in Java.
 
 After checking out from the repository, here's how to build.
 
-1. Ensure you have the a suitable version of the JDK installed: either
-   JDK 5.0 or 6 should work.  The JDK can be downloaded from
-   <http://java.sun.com/javase/downloads/>.
+1. Ensure you have JDK 8 or older installed.
    All other dependencies are included in the repository.
 
 2. Set the JAVA_HOME environment variable to point to the directory
    where the JDK is installed. For example, on Linux do something like
    ```
-   export JAVA_HOME=/opt/jdk1.6.0_10
+   export JAVA_HOME=/opt/jdk1.8.0_10
    ```
    and, on Windows, do something like
    ```
-   set JAVA_HOME=c:\Program Files\Java\jdk1.6.0_10
+   set JAVA_HOME=c:\Program Files\Java\jdk1.8.0_10
    ```
 
 3. Change your working directory to be root source directory (i.e. the
